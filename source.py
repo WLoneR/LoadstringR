@@ -118,7 +118,6 @@ class Ui_LoadstringR(object):
         self.loadstringBox.setText("")
 
 if __name__ == "__main__":
-    import sys
     app = QtWidgets.QApplication(sys.argv)
     LoadstringR = QtWidgets.QWidget()
     ui = Ui_LoadstringR()
